@@ -1,5 +1,6 @@
 plugins {
     id "java"
+    id "application"
 }
 
 group 'prv.sevel'
@@ -9,8 +10,26 @@ version '1.0'
 repositories {
     mavenCentral()
     jcenter()
+    maven {
+        url "https://packages.confluent.io/maven/"
+    }
 }
 
 dependencies {
-    compile group: 'io.confluent.ksql', name: 'ksql-test-util', version: '5.3.0'
+    compile group: 'io.confluent.ksql', name: 'ksql-functional-tests', version: '5.3.0'
+}
+
+task testModule(dependsOn: build) {
+    doLast {
+        javaexec {
+            main = "io.confluent.ksql.test.tools.KsqlTestingTool"
+            classpath = sourceSets.main.runtimeClasspath
+            args = [
+                    "-i" + moduleName + "/input.json",
+                    "-o" + moduleName + "/output.json",
+                    "-s" + moduleName + "/script.sql"
+            ]
+            workingDir = project.getRootDir()
+        }
+    }
 }

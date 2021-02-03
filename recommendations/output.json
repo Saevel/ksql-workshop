@@ -1,0 +1,6 @@
+{
+  "outputs": [
+    {"topic": "user_recommendations", "timestamp": 3000, "value": {"userid": 0, "services":  [1, 9, 7]}},
+    {"topic": "user_recommendations", "timestamp": 5500, "value": {"userid": 0, "services":  [2, 3]}}
+  ]
+}

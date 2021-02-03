@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    {"topic": "user_events", "timestamp": 0, "value": {"userId": 0, "event": "CLICK", "data": {"target": "investment"}}, "key": 44324},
+    {"topic": "user_events", "timestamp": 1000, "value": {"userId": 0, "event": "SWIPE", "data": {"direction": "left"}}, "key": 6653},
+    {"topic": "user_events", "timestamp": 2000, "value": {"userId": 1, "event": "CLICK", "data": {"target": "investment"}}, "key": 4555},
+    {"topic": "user_events", "timestamp": 2500, "value": {"userId": 3, "event": "LOGOUT", "data": {"result": "failed"}}, "key": 65666},
+    {"topic": "user_events", "timestamp": 3000, "value": {"userId": 0, "event": "CLICK", "data": {"target": "investment"}}, "key": 7675},
+    {"topic": "user_events", "timestamp": 4000, "value": {"userId": 1, "event": "LOGOUT", "data": {"result": "failed"}}, "key": 101},
+    {"topic": "user_events", "timestamp": 4500, "value": {"userId": 2, "event": "LOGOUT", "data": {"result": "success"}}, "key": 60504},
+    {"topic": "user_events", "timestamp": 5000, "value": {"userId": 1, "event": "CLICK", "data": {"target": "investment"}}, "key": 77657},
+    {"topic": "user_events", "timestamp": 5500, "value": {"userId": 1, "event": "CLICK", "data": {"target": "investment"}}, "key": 45454},
+    {"topic": "user_events", "timestamp": 6000, "value": {"userId": 0, "event": "LOGOUT", "data": {"result": "success"}}, "key": 432423},
+    {"topic": "service_recommendations", "timestamp": 0, "value": {"userId": 0, "services": [1, 9, 7], "model": "ModelA"}, "key":  "ModelA"},
+    {"topic": "service_recommendations", "timestamp": 0, "value": {"userId": 1, "services": [2, 3], "model": "ModelA"}, "key":  "ModelA"},
+    {"topic": "service_recommendations", "timestamp": 0, "value": {"userId": 2, "services": [66, 78], "model": "ModelB"}, "key":  "ModelB"},
+    {"topic": "service_recommendations", "timestamp": 0, "value": {"userId": 3, "services": [11, 19, 72], "model": "ModelB"}, "key":  "ModelB"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "inputs": [
+    {"topic": "stock_prices", "timestamp": 0, "value": {"stock_id":  1, "stock_price":  34.76}, "key": 1},
+    {"topic": "stock_prices", "timestamp": 1, "value": {"stock_id":  2, "stock_price":  50.01}, "key": 2},
+    {"topic": "stock_prices", "timestamp": 2, "value": {"stock_id":  1, "stock_price":  22.34}, "key": 1},
+    {"topic": "stock_prices", "timestamp": 3, "value": {"stock_id":  3, "stock_price":  12.12}, "key": 3},
+    {"topic": "stock_prices", "timestamp": 4, "value": {"stock_id":  1, "stock_price":  40.17}, "key": 1}
+  ]
+}

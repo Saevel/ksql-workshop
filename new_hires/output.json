@@ -1,0 +1,11 @@
+{
+  "outputs": [
+    {"topic": "high_salary_hires", "timestamp": 0, "value": {"id": 0, "country": "UK", "salary": 50000.0, "department": "PSU"}, "key": 0},
+    {"topic": "high_salary_hires", "timestamp": 3, "value": {"id": 3, "country": "UK", "salary": 35000.0, "department": "IT"}, "key": 3},
+    {"topic":  "max_salaries", "timestamp": 0, "value": {"country": "UK", "max_salary": 50000.0}, "key": "UK"},
+    {"topic":  "max_salaries", "timestamp": 1, "value": {"country": "PL", "max_salary": 17000.0}, "key": "PL"},
+    {"topic":  "max_salaries", "timestamp": 2, "value": {"country": "PL", "max_salary": 17000.0}, "key": "PL"},
+    {"topic":  "max_salaries", "timestamp": 3, "value": {"country": "UK", "max_salary": 50000.0}, "key": "UK"},
+    {"topic":  "max_salaries", "timestamp": 4, "value": {"country": "PL", "max_salary": 22000.0}, "key": "PL"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "inputs": [
+    {"topic": "new_hires", "timestamp": 0, "value": {"id": 0, "country": "UK", "salary": 50000.0, "department": "PSU"}, "key": 0},
+    {"topic": "new_hires", "timestamp": 1, "value": {"id": 1, "country": "PL", "salary": 17000.0, "department": "PSU"}, "key": 1},
+    {"topic": "new_hires", "timestamp": 2, "value": {"id": 2, "country": "PL", "salary": 6000.0, "department": "Accounting"}, "key": 2},
+    {"topic": "new_hires", "timestamp": 3, "value": {"id": 3, "country": "UK", "salary": 35000.0, "department": "IT"}, "key": 3},
+    {"topic": "new_hires", "timestamp": 4, "value": {"id": 4, "country": "PL", "salary": 22000.0, "department": "PSU"}, "key": 4}
+  ]
+}
